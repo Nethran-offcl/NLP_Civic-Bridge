@@ -30,7 +30,7 @@ export function LocationStep({ value, onChange }: IntakeStepProps) {
   return (
     <div className="space-y-5">
       <label className="block space-y-2">
-        <span className="flex items-center gap-2 text-sm font-semibold text-slate-800">
+        <span className="flex items-center gap-2 text-sm font-semibold text-slate-800 dark:text-slate-200">
           <MapPin className="h-4 w-4" />
           State
         </span>
@@ -43,7 +43,7 @@ export function LocationStep({ value, onChange }: IntakeStepProps) {
         </Select>
       </label>
       <label className="block space-y-2">
-        <span className="text-sm font-semibold text-slate-800">District</span>
+        <span className="text-sm font-semibold text-slate-800 dark:text-slate-200">District</span>
         <Input
           value={value.district}
           onChange={(event) => onChange({ district: event.target.value })}

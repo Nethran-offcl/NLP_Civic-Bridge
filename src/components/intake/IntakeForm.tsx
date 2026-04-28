@@ -99,10 +99,10 @@ export function IntakeForm() {
             Demo farmer
           </Button>
         </div>
-        <StepIndicator steps={steps} currentStep={step} />
+        <StepIndicator steps={steps} currentStep={step} onStepClick={(clickedStep) => setStep(clickedStep)} />
       </CardHeader>
       <CardContent className="space-y-6">
-        <div className="rounded-md bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-800">
+        <div className="rounded-md bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-800 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-100 dark:border-emerald-900/50">
           <ShieldCheck className="mr-2 inline h-4 w-4" />
           Your data stays on your device unless you configure Supabase saving.
         </div>

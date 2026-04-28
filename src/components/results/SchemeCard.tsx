@@ -22,23 +22,23 @@ export function SchemeCard({ match }: { match: MatchResult }) {
       <CardContent className="flex h-full flex-col gap-4 p-5 pl-6">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <p className="mb-1 text-xs font-bold uppercase tracking-wide text-slate-500">{scheme.category}</p>
-            <h3 className="text-lg font-bold leading-tight text-slate-950">{scheme.name}</h3>
-            <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-600">{scheme.description}</p>
+            <p className="mb-1 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">{scheme.category}</p>
+            <h3 className="text-lg font-bold leading-tight text-slate-950 dark:text-slate-100">{scheme.name}</h3>
+            <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-600 dark:text-slate-400">{scheme.description}</p>
           </div>
           <Badge tone={badgeTone(match.status)}>{match.status}</Badge>
         </div>
 
-        <div className="rounded-md bg-slate-50 p-3">
-          <p className="text-xs font-semibold uppercase text-slate-500">Top benefit</p>
-          <p className="mt-1 text-base font-bold text-slate-950">{benefit?.amount ?? benefit?.title ?? "Benefit varies"}</p>
-          <p className="text-sm text-slate-600">{benefit?.description}</p>
+        <div className="rounded-md bg-slate-50 p-3 dark:bg-slate-800/50">
+          <p className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Top benefit</p>
+          <p className="mt-1 text-base font-bold text-slate-950 dark:text-slate-100">{benefit?.amount ?? benefit?.title ?? "Benefit varies"}</p>
+          <p className="text-sm text-slate-600 dark:text-slate-400">{benefit?.description}</p>
         </div>
 
         <div className="space-y-2">
           {match.matchedCriteria.slice(0, 3).map((criterion) => (
-            <p key={criterion} className="flex items-center gap-2 text-sm text-slate-700">
-              <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-600" />
+            <p key={criterion} className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300">
+              <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-600 dark:text-emerald-500" />
               {criterion}
             </p>
           ))}
