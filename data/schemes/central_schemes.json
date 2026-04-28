@@ -58,12 +58,12 @@
       { "title": "Receive installment support", "description": "Approved beneficiaries receive support through DBT-linked stages." }
     ],
     "documents": ["Identity proof", "Ration card", "Job card if available", "Bank account details"],
-    "applicationUrl": "https://pmayg.nic.in/",
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/pmayg",
     "helplineNumber": "1800-11-6446",
     "isActive": true,
     "tags": ["housing", "rural", "bpl", "gram panchayat"],
     "lastUpdated": "2026-04-26",
-    "sourceUrl": "https://pmayg.nic.in/"
+    "sourceUrl": "https://www.myscheme.gov.in/schemes/pmayg"
   },
   {
     "id": "PMJAY-003",
@@ -257,12 +257,12 @@
       { "title": "Access credit and training", "description": "Use SHG linkage for livelihood activities." }
     ],
     "documents": ["Identity proof", "Address proof", "Bank account", "SHG membership details"],
-    "applicationUrl": "https://nrlm.gov.in/",
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/day-nrlm",
     "helplineNumber": "Contact district mission office",
     "isActive": true,
     "tags": ["women", "shg", "rural", "livelihood"],
     "lastUpdated": "2026-04-26",
-    "sourceUrl": "https://nrlm.gov.in/"
+    "sourceUrl": "https://www.myscheme.gov.in/schemes/day-nrlm"
   },
   {
     "id": "MGNREGA-009",
@@ -389,12 +389,12 @@
       { "title": "Complete placement support", "description": "Attend training, assessment, and placement activities." }
     ],
     "documents": ["Identity proof", "Address proof", "Age proof", "Education proof", "BPL/SECC or relevant proof"],
-    "applicationUrl": "https://ddugky.gov.in/",
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/ddugky",
     "helplineNumber": "Contact state rural livelihood mission",
     "isActive": true,
     "tags": ["skill", "youth", "rural", "jobs"],
     "lastUpdated": "2026-04-26",
-    "sourceUrl": "https://ddugky.gov.in/"
+    "sourceUrl": "https://www.myscheme.gov.in/schemes/ddugky"
   },
   {
     "id": "IGNOAPS-013",
@@ -422,7 +422,7 @@
       { "title": "Track pension", "description": "Track through state portal or NSAP reporting where available." }
     ],
     "documents": ["Age proof", "BPL/income proof", "Residence proof", "Bank account"],
-    "applicationUrl": "https://nsap.nic.in/",
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/ignoaps",
     "helplineNumber": "Contact district social welfare office",
     "isActive": true,
     "tags": ["pension", "old age", "bpl", "senior"],
@@ -455,7 +455,7 @@
       { "title": "Complete assessment", "description": "Attend training and assessment for certification." }
     ],
     "documents": ["Identity proof", "Age proof", "Education proof", "Mobile number"],
-    "applicationUrl": "https://www.skillindiadigital.gov.in/",
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/pmkvy",
     "helplineNumber": "8800055555",
     "isActive": true,
     "tags": ["skill", "youth", "training", "certificate"],
@@ -488,7 +488,7 @@
       { "title": "Repay digitally", "description": "Timely repayment improves eligibility for next tranche." }
     ],
     "documents": ["Vending certificate/ID or LoR", "Identity proof", "Bank account", "Mobile number"],
-    "applicationUrl": "https://pmsvanidhi.mohua.gov.in/",
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/pmsvanidhi",
     "helplineNumber": "1800-11-1979",
     "isActive": true,
     "tags": ["street vendor", "loan", "urban", "digital payments"],
