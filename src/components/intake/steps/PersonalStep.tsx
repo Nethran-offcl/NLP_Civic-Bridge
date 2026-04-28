@@ -15,7 +15,7 @@ export function PersonalStep({ value, onChange }: IntakeStepProps) {
   return (
     <div className="space-y-6">
       <div>
-        <label className="mb-3 block text-sm font-semibold text-slate-800">Age: {value.age}</label>
+        <label className="mb-3 block text-sm font-semibold text-slate-800 dark:text-slate-200">Age: {value.age}</label>
         <input
           type="range"
           min={18}
@@ -24,13 +24,13 @@ export function PersonalStep({ value, onChange }: IntakeStepProps) {
           onChange={(event) => onChange({ age: Number(event.target.value) })}
           className="w-full accent-brand-500"
         />
-        <div className="mt-2 flex justify-between text-xs text-slate-500">
+        <div className="mt-2 flex justify-between text-xs text-slate-500 dark:text-slate-400">
           <span>18</span>
           <span>80</span>
         </div>
       </div>
       <div>
-        <p className="mb-3 text-sm font-semibold text-slate-800">Gender</p>
+        <p className="mb-3 text-sm font-semibold text-slate-800 dark:text-slate-200">Gender</p>
         <div className="grid gap-3 sm:grid-cols-3">
           {genderOptions.map((option) => (
             <Button

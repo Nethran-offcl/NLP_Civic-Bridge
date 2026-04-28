@@ -35,8 +35,8 @@ export default function ResultsPage() {
   if (!profile || matches.length === 0) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold text-slate-950">Start with the intake form</h1>
-        <p className="mt-3 text-slate-600">Your matched schemes will appear here after you answer five quick sections.</p>
+        <h1 className="text-3xl font-bold text-slate-950 dark:text-slate-100">Start with the intake form</h1>
+        <p className="mt-3 text-slate-600 dark:text-slate-400">Your matched schemes will appear here after you answer five quick sections.</p>
         <Button asChild className="mt-6">
           <Link href="/intake">
             Start intake
@@ -51,8 +51,8 @@ export default function ResultsPage() {
     <div className="mx-auto max-w-7xl space-y-6 px-4 py-8 sm:px-6 lg:px-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-slate-950">Matched schemes</h1>
-          <p className="mt-2 text-slate-600">
+          <h1 className="text-3xl font-bold text-slate-950 dark:text-slate-100">Matched schemes</h1>
+          <p className="mt-2 text-slate-600 dark:text-slate-400">
             Sorted for a {profile.age}-year-old {profile.occupation.replace(/_/g, " ")} in {profile.state}.
           </p>
         </div>

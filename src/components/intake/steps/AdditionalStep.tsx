@@ -20,7 +20,7 @@ export function AdditionalStep({ value, onChange }: IntakeStepProps) {
   return (
     <div className="space-y-5">
       <label className="block space-y-2">
-        <span className="text-sm font-semibold text-slate-800">Social category</span>
+        <span className="text-sm font-semibold text-slate-800 dark:text-slate-200">Social category</span>
         <Select value={value.caste} onChange={(event) => onChange({ caste: event.target.value as CasteCategory })}>
           {casteOptions.map((option) => (
             <option key={option} value={option}>
@@ -30,7 +30,7 @@ export function AdditionalStep({ value, onChange }: IntakeStepProps) {
         </Select>
       </label>
       <label className="block space-y-2">
-        <span className="flex items-center gap-2 text-sm font-semibold text-slate-800">
+        <span className="flex items-center gap-2 text-sm font-semibold text-slate-800 dark:text-slate-200">
           <Sprout className="h-4 w-4" />
           Land holding
         </span>
@@ -45,8 +45,8 @@ export function AdditionalStep({ value, onChange }: IntakeStepProps) {
           ))}
         </Select>
       </label>
-      <label className="flex min-h-14 items-center justify-between gap-4 rounded-md border border-slate-200 bg-white px-4">
-        <span className="flex items-center gap-2 text-sm font-semibold text-slate-800">
+      <label className="flex min-h-14 items-center justify-between gap-4 rounded-md border border-slate-200 bg-white px-4 dark:border-slate-700 dark:bg-slate-800">
+        <span className="flex items-center gap-2 text-sm font-semibold text-slate-800 dark:text-slate-200">
           <Accessibility className="h-4 w-4" />
           Person with disability
         </span>

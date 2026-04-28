@@ -31,9 +31,9 @@ export function FilterBar({
   onCategoryChange: (category: SchemeCategory | "all") => void;
 }) {
   return (
-    <div className="grid gap-3 rounded-lg border border-slate-200 bg-white p-3 sm:grid-cols-[1fr_220px]">
+    <div className="grid gap-3 rounded-lg border border-slate-200 bg-white p-3 sm:grid-cols-[1fr_220px] dark:border-slate-800 dark:bg-slate-900">
       <label className="relative block">
-        <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+        <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400 dark:text-slate-500" />
         <Input
           value={query}
           onChange={(event) => onQueryChange(event.target.value)}

@@ -10,7 +10,7 @@ export function Header() {
       <div className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 font-semibold text-slate-900 dark:text-white transition-colors">
           <div className="rounded-md bg-gradient-to-br from-sky-500 to-indigo-600 dark:from-sky-400 dark:to-indigo-500 p-1 shadow-md dark:shadow-lg">
-            <Image src="/logo.svg" alt="CivicBridge logo" width={28} height={28} className="rounded-sm dark:brightness-0 dark:invert" />
+            <Image src="/logo.svg" alt="CivicBridge logo" width={28} height={28} className="rounded-sm" />
           </div>
           <span className="tracking-tight">CivicBridge</span>
         </Link>
