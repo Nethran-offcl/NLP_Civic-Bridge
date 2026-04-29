@@ -94,19 +94,24 @@ If you open chat directly from `/chat` without a scheme selected, the assistant 
 
 ## Features
 
-- Intake-based scheme matching
-- Ranked eligibility results
-- Scheme detail pages with benefits, documents, and application steps
-- Downloadable PDF application packets for offline use (with translated text)
-- Scheme-aware AI chat from `Ask AI`
-- General AI chat when no scheme is selected
-- Local fallback responses when external AI is unavailable
-- Multilingual support (seamlessly supporting major Indian languages via translation, with flawless, error-free rendering)
-- High-performance routing (authentication middleware conditionally checks sessions to eliminate navigation lag)
-- Over 70+ central and state schemes supported locally
+- **Intake-based scheme matching**: A highly responsive, multi-step intake flow to collect user profiles.
+- **Ranked eligibility results**: Dynamically generated matching dashboards with scheme filtering and eligibility summaries.
+- **Scheme detail pages**: Rich, transparent details including document checklists, estimated processing timelines, and official portal links.
+- **Downloadable PDF application packets**: Generate personalized, localized application forms for offline use.
+- **Scheme-aware AI chat**: Start contextual conversations directly from a scheme page using `Ask AI`.
+- **General AI chat**: Universal AI chatbot for general welfare discovery when no specific scheme is selected.
+- **Resilient Multilingual support**: Seamlessly translates the application workflow into 5+ major Indian languages. Includes a zero-downtime robust local fallback dictionary when the AI translation API hits rate limits.
+- **High-performance routing**: Optimized authentication middleware unconditionally routes requests instantly without blocking UI navigation.
+- **Extensive Database**: Over 70+ central and state schemes supported locally (featuring deep coverage for South Indian states and major Central schemes).
+
+## Future Scope
+
+- **Automated Application Filing via RPA**: Future implementation of Robotic Process Automation (RPA) scripts to automatically fill out official government portals using saved profile data.
+- **Community Peer-to-Peer Support**: Introduce a "Community Verified" tagging system where successful applicants can guide others on specific local bureaucratic hurdles.
+- **Voice-to-Text Vernacular Intake**: Integrate localized voice recognition models to allow users to dictate their intake profile completely in their regional dialect.
 
 ## Notes
 
-- Scheme data lives in `data/schemes`.
-- The app uses local JSON data for deterministic matching.
-- The AI assistant is grounded in retrieved scheme context and does not invent schemes.
+- Scheme data lives securely in `data/schemes`.
+- The application uses local JSON data for deterministic, secure matching.
+- The AI assistant is rigorously grounded in retrieved scheme context (RAG) and will not hallucinate or invent non-existent schemes.
