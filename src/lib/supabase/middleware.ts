@@ -54,23 +54,35 @@ export async function updateSession(request: NextRequest) {
     }
   )
 
-  // refreshing the auth token
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  const pathname = request.nextUrl.pathname
 
-  // Protect routes
-  if (!user && request.nextUrl.pathname.startsWith('/profile')) {
-    const url = request.nextUrl.clone()
-    url.pathname = '/login'
-    return NextResponse.redirect(url)
-  }
+  // Protect routes that require authentication
+  const isProtected = pathname.startsWith('/profile')
+  // Auth routes where logged-in users shouldn't be
+  const isAuthRoute = pathname === '/login' || pathname === '/register'
 
-  // Redirect signed-in users away from auth pages
-  if (user && (request.nextUrl.pathname === '/login' || request.nextUrl.pathname === '/register')) {
-    const url = request.nextUrl.clone()
-    url.pathname = '/profile'
-    return NextResponse.redirect(url)
+  if (isProtected || isAuthRoute) {
+    // For protected routes, use getUser() to securely verify the token against the Supabase server
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user && isProtected) {
+      const url = request.nextUrl.clone()
+      url.pathname = '/login'
+      return NextResponse.redirect(url)
+    }
+
+    if (user && isAuthRoute) {
+      const url = request.nextUrl.clone()
+      url.pathname = '/profile'
+      return NextResponse.redirect(url)
+    }
+  } else {
+    // For all other routes, use getSession() which is much faster. 
+    // It only decodes the JWT and will quietly refresh the token if it's expired,
+    // without making a blocking network request on every page transition.
+    await supabase.auth.getSession()
   }
 
   return supabaseResponse

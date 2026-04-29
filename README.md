@@ -101,7 +101,8 @@ If you open chat directly from `/chat` without a scheme selected, the assistant 
 - Scheme-aware AI chat from `Ask AI`
 - General AI chat when no scheme is selected
 - Local fallback responses when external AI is unavailable
-- Multilingual support (seamlessly supporting major Indian languages via translation)
+- Multilingual support (seamlessly supporting major Indian languages via translation, with flawless, error-free rendering)
+- High-performance routing (authentication middleware conditionally checks sessions to eliminate navigation lag)
 - Over 70+ central and state schemes supported locally
 
 ## Notes

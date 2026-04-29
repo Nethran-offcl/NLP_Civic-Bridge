@@ -45,7 +45,10 @@ export const UI_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, s
     "Ask about documents, eligibility, or application steps": "दस्तावेज, पात्रता या आवेदन चरण पूछें",
     "Speak question": "सवाल बोलें",
     "Voice input is available in supported Chrome browsers": "आवाज इनपुट समर्थित Chrome ब्राउजर में उपलब्ध है",
-    "Send message": "संदेश भेजें"
+    "Send message": "संदेश भेजें",
+    Login: "लॉगिन",
+    Register: "रजिस्टर",
+    Profile: "प्रोफाइल"
   },
   kn: {
     Intake: "ಮಾಹಿತಿ",
@@ -62,7 +65,10 @@ export const UI_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, s
     "How it works": "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
     "CivicBridge assistant": "CivicBridge ಸಹಾಯಕ",
     "Ask about documents, eligibility, or application steps": "ದಾಖಲೆಗಳು, ಅರ್ಹತೆ ಅಥವಾ ಅರ್ಜಿ ಹಂತಗಳ ಬಗ್ಗೆ ಕೇಳಿ",
-    "Send message": "ಸಂದೇಶ ಕಳುಹಿಸಿ"
+    "Send message": "ಸಂದೇಶ ಕಳುಹಿಸಿ",
+    Login: "ಲಾಗಿನ್",
+    Register: "ನೋಂದಣಿ",
+    Profile: "ಪ್ರೊಫೈಲ್"
   },
   ta: {
     Intake: "விவரங்கள்",
@@ -79,7 +85,10 @@ export const UI_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, s
     "How it works": "இது எப்படி செயல்படுகிறது",
     "CivicBridge assistant": "CivicBridge உதவியாளர்",
     "Ask about documents, eligibility, or application steps": "ஆவணங்கள், தகுதி அல்லது விண்ணப்ப படிகள் பற்றி கேளுங்கள்",
-    "Send message": "செய்தி அனுப்பு"
+    "Send message": "செய்தி அனுப்பு",
+    Login: "உள்நுழை",
+    Register: "பதிவு செய்",
+    Profile: "சுயவிவரம்"
   },
   te: {
     Intake: "వివరాలు",
@@ -96,7 +105,10 @@ export const UI_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, s
     "How it works": "ఇది ఎలా పనిచేస్తుంది",
     "CivicBridge assistant": "CivicBridge సహాయకుడు",
     "Ask about documents, eligibility, or application steps": "పత్రాలు, అర్హత లేదా దరఖాస్తు దశల గురించి అడగండి",
-    "Send message": "సందేశం పంపండి"
+    "Send message": "సందేశం పంపండి",
+    Login: "లాగిన్",
+    Register: "నమోదు",
+    Profile: "ప్రొఫైల్"
   },
   mr: {
     Intake: "माहिती",
@@ -113,7 +125,10 @@ export const UI_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, s
     "How it works": "हे कसे काम करते",
     "CivicBridge assistant": "CivicBridge सहाय्यक",
     "Ask about documents, eligibility, or application steps": "कागदपत्रे, पात्रता किंवा अर्जाच्या टप्प्यांबद्दल विचारा",
-    "Send message": "संदेश पाठवा"
+    "Send message": "संदेश पाठवा",
+    Login: "लॉगिन",
+    Register: "नोंदणी",
+    Profile: "प्रोफाइल"
   }
 };
 

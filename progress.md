@@ -18,6 +18,8 @@
 * **Dynamic Analytics**: Enhanced the homepage to automatically analyze the scheme database and dynamically display metrics for the top 4 most common scheme categories.
 * **Application PDF Generation**: Built a robust, paginated PDF generator allowing users to download personalized, offline "Application Packets," fully compatible with the user's localized language interface.
 * **Milestone Achieved**: ✅ Successfully reached the milestone of 70 fully populated Central and State schemes in the database!
+* **Translation Rendering Fix**: Resolved rendering and context errors during language switching to ensure a flawless multilingual experience.
+* **Performance Optimizations**: Fixed severe rendering lag and navigation delays by optimizing the Supabase authentication middleware to run network-heavy session checks only on protected routes, resulting in instant page transitions.
 
 ## Current Progress
 * The core user journey (Intake Form ➔ Matched Results ➔ Scheme Details) is fully functional, smooth, and highly responsive.

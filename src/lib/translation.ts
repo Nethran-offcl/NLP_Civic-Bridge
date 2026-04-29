@@ -50,7 +50,10 @@ const EXACT_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, strin
     Back: "वापस",
     Next: "आगे",
     "Show my schemes": "मेरी योजनाएं दिखाएं",
-    "Matching...": "मिलान हो रहा है..."
+    "Matching...": "मिलान हो रहा है...",
+    Login: "लॉगिन",
+    Register: "रजिस्टर",
+    Profile: "प्रोफाइल"
   },
   kn: {
     "Ask AI Assistant": "AI ಸಹಾಯಕನನ್ನು ಕೇಳಿ",
@@ -85,7 +88,10 @@ const EXACT_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, strin
     Back: "ಹಿಂದೆ",
     Next: "ಮುಂದೆ",
     "Show my schemes": "ನನ್ನ ಯೋಜನೆಗಳನ್ನು ತೋರಿಸಿ",
-    "Matching...": "ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ..."
+    "Matching...": "ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ...",
+    Login: "ಲಾಗಿನ್",
+    Register: "ನೋಂದಣಿ",
+    Profile: "ಪ್ರೊಫೈಲ್"
   },
   ta: {
     "Ask AI Assistant": "AI உதவியாளரிடம் கேள்",
@@ -120,7 +126,10 @@ const EXACT_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, strin
     Back: "பின்",
     Next: "அடுத்து",
     "Show my schemes": "என் திட்டங்களை காட்டு",
-    "Matching...": "பொருத்தப்படுகிறது..."
+    "Matching...": "பொருத்தப்படுகிறது...",
+    Login: "உள்நுழை",
+    Register: "பதிவு செய்",
+    Profile: "சுயவிவரம்"
   },
   te: {
     "Ask AI Assistant": "AI సహాయకుడిని అడగండి",
@@ -155,7 +164,10 @@ const EXACT_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, strin
     Back: "వెనుకకు",
     Next: "తదుపరి",
     "Show my schemes": "నా పథకాలను చూపించు",
-    "Matching...": "సరిపోలుస్తోంది..."
+    "Matching...": "సరిపోలుస్తోంది...",
+    Login: "లాగిన్",
+    Register: "నమోదు",
+    Profile: "ప్రొఫైల్"
   },
   mr: {
     "Ask AI Assistant": "AI सहाय्यकाला विचारा",
@@ -190,7 +202,10 @@ const EXACT_TRANSLATIONS: Partial<Record<SupportedLanguage, Record<string, strin
     Back: "मागे",
     Next: "पुढे",
     "Show my schemes": "माझ्या योजना दाखवा",
-    "Matching...": "जुळवणी सुरू आहे..."
+    "Matching...": "जुळवणी सुरू आहे...",
+    Login: "लॉगिन",
+    Register: "नोंदणी",
+    Profile: "प्रोफाइल"
   }
 };
 
